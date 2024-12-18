@@ -2,6 +2,7 @@
   "expo": {
     "name": "extra-happy",
     "slug": "extra-happy",
+    "scheme": "expo-and-tailwind",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
